@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 // Accessing the Ebviroment variable. .env.local file is required and the variable name should start with REACT_APP_
 //all the variables are stored in process.env and and are written in .env file in the root directory 
 const API_KEY = process.env.REACT_APP_GIPHY_API_KEY;
-const url = `http://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
+const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
 
 function useGif(tag) {
 
